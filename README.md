@@ -15,5 +15,5 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Build Hugo
-      uses: AlyIbrahim/hugo-builder
+      uses: AlyIbrahim/hugo-builder@v1
 ```
