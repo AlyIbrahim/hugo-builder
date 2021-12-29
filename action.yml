@@ -1,0 +1,7 @@
+# action.yml
+name: 'Hugo Builder'
+author 'Aly Ibrahim <AlyIbrahim@github.com>'
+description: 'Builds a Hugo website and generate public folder ready for deployment'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
